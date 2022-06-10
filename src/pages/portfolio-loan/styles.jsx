@@ -7,6 +7,9 @@ export const Portfolioloan = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: sticky;
+  top: 72px;
+  z-index: 100;
 
   p {
     display: flex;
@@ -24,5 +27,5 @@ export const ContentWrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 28px 20px;
+  margin: 15px 20px 28px 20px;
 `;

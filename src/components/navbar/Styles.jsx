@@ -8,6 +8,10 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: 0 12px 0 12px;
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+  z-index: 200;
 
   svg {
     height: 30.59px;

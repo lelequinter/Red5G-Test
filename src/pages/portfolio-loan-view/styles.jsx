@@ -16,6 +16,9 @@ export const Banner = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: sticky;
+  top: 72px;
+  z-index: 100;
 
   p {
     display: flex;

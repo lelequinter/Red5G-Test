@@ -7,6 +7,9 @@ export const Banner = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: sticky;
+  top: 72px;
+  z-index: 100;
 
   p {
     display: flex;
@@ -17,4 +20,12 @@ export const Banner = styled.div`
     height: 20px;
     font-weight: 600;
   }
+`;
+
+export const ContentWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 28px 20px;
 `;
