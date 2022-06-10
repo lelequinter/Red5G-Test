@@ -26,23 +26,26 @@ const Products = () => {
       type: "Amount",
       price: 123123123,
       logo: <FaHands size={40} />,
+      route: "/portfolio-loan",
     },
     {
       name: "Mortagage Loan",
       type: "Mortgage",
       price: 456456456,
       logo: <FiDatabase size={40} />,
+      route: "/",
     },
     {
       name: "DREI",
       type: "Investment",
       price: 623723623,
       logo: <HiOutlineHome size={40} />,
+      route: "/",
     },
   ];
   return products.map((product, i) => {
     return (
-      <Wrapper key={i}>
+      <Wrapper key={i} to={`${product.route}`}>
         <Product>
           <Logo> {product.logo} </Logo>
           <Details>
