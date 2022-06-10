@@ -1,13 +1,34 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: TTCommonsRegular, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: TTCommonsRegular;
+  src: url("../src/assets/font/TTCommons-Regular.ttf"); /* IE9 Compat Modes */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: TTCommonsBold;
+  src: url("../src/assets/font/TTCommons-Bold.ttf"); /* IE9 Compat Modes */
+  font-weight: 600;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: TTCommonsDemiBold;
+  src: url("../src/assets/font/TTCommons-DemiBold.ttf"); /* IE9 Compat Modes */
+  font-weight: 800;
+  font-style: bold;
 }
