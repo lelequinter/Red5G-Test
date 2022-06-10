@@ -14,6 +14,7 @@ export const WelcomeWrapper = styled.div`
   align-items: center;
   flex-direction: column;
   margin-bottom: 36px;
+  margin-top: 16px;
 `;
 
 export const Welcome = styled.div`
@@ -21,6 +22,7 @@ export const Welcome = styled.div`
   height: 24px;
   font-size: 24px;
   font-weight: 800;
+  font-family: TTCommonsDemiBold;
   display: flex;
   align-items: center;
 `;

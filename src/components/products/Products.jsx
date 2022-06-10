@@ -45,8 +45,8 @@ const Products = () => {
   ];
   return products.map((product, i) => {
     return (
-      <Wrapper key={i} to={`${product.route}`}>
-        <Product>
+      <Wrapper key={i}>
+        <Product to={`${product.route}`}>
           <Logo> {product.logo} </Logo>
           <Details>
             <Name>{product.name}</Name>

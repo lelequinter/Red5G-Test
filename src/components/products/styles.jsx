@@ -1,12 +1,11 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
-export const Wrapper = styled(NavLink)`
+export const Wrapper = styled.div`
   margin: 0;
-  text-decoration: none;
 `;
 
-export const Product = styled.div`
+export const Product = styled(NavLink)`
   height: 104px;
   display: flex;
   align-items: center;
@@ -14,6 +13,7 @@ export const Product = styled.div`
   gap: 10px;
   margin: 0;
   width: 328px;
+  text-decoration: none;
 `;
 
 export const Logo = styled.div`
@@ -44,6 +44,7 @@ export const Details = styled.div`
 export const Name = styled.p`
   font-size: 16px;
   font-weight: 800;
+  font-family: TTCommonsDemiBold;
   color: #000;
   margin: 0;
 `;

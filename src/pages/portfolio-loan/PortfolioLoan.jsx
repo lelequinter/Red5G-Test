@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import Loans from '../../components/loans/Loans'
+import { Portfolioloan, ContentWrapper } from "./styles";
 
 function PortfolioLoan() {
   return (
-    <div>PortfolioLoan</div>
-  )
+    <>
+      <Portfolioloan>
+        <p>Portfolio Loan</p>
+      </Portfolioloan>
+      <ContentWrapper>
+        <Loans/>
+      </ContentWrapper>
+    </>
+  );
 }
 
-export default PortfolioLoan
+export default PortfolioLoan;

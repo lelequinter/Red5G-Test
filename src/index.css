@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: TTCommonsRegular, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
+  font-family: TTCommonsRegular, TTCommonsBold, TTCommonsDemiBold, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28,7 +28,7 @@ code {
 
 @font-face {
   font-family: TTCommonsDemiBold;
-  src: url("../src/assets/font/TTCommons-DemiBold.ttf"); /* IE9 Compat Modes */
+  src: url("../src/assets/font/TTCommons-ExtraBold.ttf"); /* IE9 Compat Modes */
   font-weight: 800;
   font-style: bold;
 }
