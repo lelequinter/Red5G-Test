@@ -57,7 +57,7 @@ const Loans = () => {
             </NavLink>
           </IconsSection>
         </Loan>
-        {i !== 6 && <Line />}
+        <Line />
       </Wrapper>
     );
   });
