@@ -11,3 +11,14 @@ Dependencias que se deben instalar:
 7. Lodash: npm i lodash
 
 Asegurese de reparar las vulnerabilidades al instalar las dependencias
+
+Paso a Paso
+
+A decir verdad funciona de la misma forma que el proyecto enseñado en el adobe xd
+
+1. Damos click en el item de Portfolio Loan lo cual nos llevará a la page de /portfolio-loan
+2. Podemos interactuar con los botones de ojos que nos llevarán a la page de /view
+3. En la pagina de view vemos algunas propiedades y la opcion de interactuar con el boton de Transactions el cual nos llevará a la ultima pagina /transactions.
+4. En la pagina de transactions tenemos un date picker en el que podemos seleccionar los años que queremos ver, para ver los pagos realizados ese año, y eso seía todo.
+
+Nota: por último recordar que el boton de regreso de la NavBar es completamente funcional y que el boton de PowerOff no realiza ninguna acción porque no es necesario en la prueba.
