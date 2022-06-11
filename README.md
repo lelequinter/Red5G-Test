@@ -8,5 +8,6 @@ Dependencias que se deben instalar:
 4. material ui core: npm install @material-ui/core
 5. Instalar libreria Luxon: npm i luxon
 6. Styled Components: npm install --save styled-components
+7. Lodash: npm i lodash
 
 Asegurese de reparar las vulnerabilidades al instalar las dependencias
