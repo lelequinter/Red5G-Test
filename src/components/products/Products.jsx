@@ -60,7 +60,7 @@ const Products = () => {
             </Arrow>
           </Details>
         </Product>
-        {i !== 2 && <Line />}
+        <Line />
       </Wrapper>
     );
   });

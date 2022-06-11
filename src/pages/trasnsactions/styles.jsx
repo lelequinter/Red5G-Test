@@ -28,6 +28,12 @@ export const ContentWrapper = styled.div`
   flex-direction: column;
   justify-content: space-between;
   margin: 15px 20px 28px 20px;
+  gap: 15px;
+  @media (min-width: 680px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 `;
 
 export const PickerWrapper = styled.div`

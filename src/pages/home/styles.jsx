@@ -57,5 +57,15 @@ export const YourPorducts = styled.div`
 `;
 
 export const WrapperProducts = styled.div`
-  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 28px 20px;
+  gap: 15px;
+  @media (min-width: 680px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 `;
