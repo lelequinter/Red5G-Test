@@ -23,7 +23,7 @@ const Loans = () => {
     { key: 7, date: "9-08-2020" },
   ];
 
-  return Array.map((item, i) => {
+  return Array.map((item) => {
     return (
       <Wrapper key={item.key}>
         <Loan>

@@ -2,6 +2,7 @@ import React from "react";
 import { Transaction, Line, Wrapper, Price, Type, Date } from "./styles";
 
 function Payments({ data }) {
+  // Funcion para generar una separacion por comas de las cifras numericas
   const numberWithCommas = (number) => {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   };

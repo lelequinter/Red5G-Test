@@ -73,7 +73,8 @@ const Transactions = () => {
       date: "25-05-2022",
     },
   ];
-
+  // En esta constante lo que hago es obtener los años que se detectan en el
+  // arreglo para posteriormente extraer de este el maximo y el minimo
   const years = array.map((obj) =>
     DateTime.fromFormat(obj.date, "dd-MM-yyyy").get("year")
   );
@@ -82,11 +83,13 @@ const Transactions = () => {
 
   const minYear = _.min(years);
 
+  // En esta constante filtro el arreglo para obtener los payments que fueron
+  // realizados el año seleccionado y así renderizarlos. Este arreglo es el que
+  // se envía a Payments.jsx para que sean renderizados.
   const filteredData = array.filter((obj) => {
     const date = DateTime.fromFormat(obj.date, "dd-MM-yyyy");
     return date.get("year") === selectedDate.getFullYear();
   });
-  // console.log(FilteredData);
 
   return (
     <>

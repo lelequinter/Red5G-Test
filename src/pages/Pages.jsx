@@ -9,6 +9,8 @@ const Pages = () => {
   const location = useLocation();
 
   return (
+    // En este archivo tenemos englobadas todas nuestras pages en las cuales
+    // navegaremos en nuestra aplicacion cons sus respectivas urls.
     <Routes location={location} key={location.pathname}>
       <Route path="/" element={<Home />} />
       <Route path="/portfolio-loan" element={<PortfolioLoan />} />

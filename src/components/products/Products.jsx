@@ -16,6 +16,7 @@ import {
 } from "./styles";
 
 const Products = () => {
+  // Funcion para generar una separacion por comas de las cifras numericas
   const numberWithCommas = (number) => {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   };
