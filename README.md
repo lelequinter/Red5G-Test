@@ -1,7 +1,7 @@
 # Este es el test de FrontEnd de Red5G
 
 Dependencias que se deben instalar:
-
+0. npm: npm install
 1. Material Ui: npm install @mui/material @emotion/react @emotion/styled
 2. React Icons: npm install react-icons --save
 3. Date-fns: npm i @date-io/date-fns@1.3.13

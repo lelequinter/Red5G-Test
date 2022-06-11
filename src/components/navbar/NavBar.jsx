@@ -3,7 +3,7 @@ import Logo from "../../assets/Logo";
 // import { NavLink } from "react-router-dom";
 import { RiArrowLeftSLine } from "react-icons/ri";
 import { AiOutlinePoweroff } from "react-icons/ai";
-import { Wrapper, SLink } from "./styles";
+import { Wrapper, SLink } from "./Styles";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const NavBar = () => {
