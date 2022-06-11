@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
 
 export const Wrapper = styled.div`
   width: auto;
@@ -18,7 +17,7 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const SLink = styled(NavLink)`
+export const SLink = styled.div`
   margin: 0;
   height: 48px;
   width: 48px;
