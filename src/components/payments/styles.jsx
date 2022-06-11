@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Transaction = styled.div`
-  width: 296px;
+  width: 328px;
   height: 96px;
   border-left: 8px solid #3d88e2;
   display: flex;
